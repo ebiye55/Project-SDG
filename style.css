@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    text-align: center;
+    text-shadow: 5px 2px 5px brown;
+    font-size: 3em;
+    background-color: #eef0f3;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f5a7;
+    margin: 5px;
+}
+
+li {
+    list-style: none;
+    font-size: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: blue;
+}
+
+.navbar a:hover {
+    color: rgb(14, 190, 179);
+}
+
+.main {
+    background-color: #bdf288;
+     margin: 5px;
+     text-align: center;
+}
+
+.box {
+    width: 32%;
+    border: 2px solid rgb(34, 56, 1);
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #a9dcea;
+}
+
+.goals {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    gap: 25px;
+    background-image: url(https://sdgs.un.org/themes/custom/porto/assets/images/logo-en.svg);
+    justify-content: center;
+}
+.box img {
+    width: 100%;
+}
+
+.box h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(147, 42, 4);
+}
+.main h2 {
+    font-size: 2.5em;
+    color: peru;
+}
+footer {
+    background-color: #d4eb09;
+    color: black;
+    min-height: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.fa-whatsapp {
+    color: green;
+    font-size: 2em;
+}
+
+.fa-x-twitter {
+    color: black;
+    font-size: 2em;
+}
+
+.fa-instagram {
+    color: #df104b;
+    font-size: 2em;
+}
+
+.fa-envelope {
+    color: black;
+    font-size: 2em;
+}
+
+.fa-facebook {
+    color: rgb(26, 4, 73);
+    font-size: 2em;
+}
+
+.fa-youtube {
+    color: rgb(24, 112, 228);
+    font-size: 2em;
+}
