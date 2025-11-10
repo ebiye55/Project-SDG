@@ -57,7 +57,7 @@ li {
     flex-wrap: wrap;
     margin-left: 10px;
     gap: 25px;
-    background-image: url(https://sdgs.un.org/themes/custom/porto/assets/images/logo-en.svg);
+    background-image: url(https://logos-world.net/wp-content/uploads/2021/11/UN-Logo.png);
     justify-content: center;
 }
 .box img {
@@ -118,3 +118,4 @@ footer {
     color: rgb(24, 112, 228);
     font-size: 2em;
 }
+
